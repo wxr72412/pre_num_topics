@@ -4,14 +4,6 @@
 
 ## 1. Code structure 代码结构 
 
-├── data/ # 存放数据集
-
-│ ├── mini/ # 20Newsgroups数据（英文）
-
-│ ├── THUCNews/ # 清华新闻数据集（中文）
-
-│ └── sohu/ # 搜狐新闻数据集（中文）
-
 ├── requirements.txt # 环境依赖配置文件
 
 ├── config.py # 全局配置文件，包含路径和超参数
@@ -24,11 +16,17 @@
 
 ## 2. Datasets 数据集
 
-(1) 20Newsgroup新闻数据集(http://qwone.com/~jason/20Newsgroups/)
+(1) 20Newsgroup新闻数据集（英文）：http://qwone.com/~jason/20Newsgroups/
 
-(2) 清华新闻数据集(http://thuctc.thunlp.org/message)
+下载后的数据集存放路径：data/mini/
 
-(3) 搜狐新闻数据集(https://gitcode.com/Resource-Bundle-Collection/db22d8)
+(2) 清华新闻数据集（中文）：http://thuctc.thunlp.org/message
+
+下载后的数据集存放路径：data/THUCNews/
+
+(3) 搜狐新闻数据集（中文）：https://gitcode.com/Resource-Bundle-Collection/db22d8
+
+下载后的数据集存放路径：data/sohu/
 
 ## 3.  Parameter configuration 参数配置
 
